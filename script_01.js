@@ -57,13 +57,6 @@ function getSentenceArr(arr) {
 
     return str;
 }
-
-
-
-
-
-
-
 // Modul: Ausgabe in Konsole : Test
 // output("hi"); 
 function output(outputStr) {
