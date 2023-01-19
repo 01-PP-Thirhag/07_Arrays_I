@@ -20,7 +20,6 @@
 // {} --> Codeblöcke
 // [] --> Arrays, Index
 
-
 /* 02a. Theorie: Schleifen (for-schleife) */
 
 /* For -Schleifen als allg. Wiederholungs-Struktur*/
@@ -30,7 +29,14 @@
 // {
 //     // output("index i:" + i)  
 // }
+/* For -Schleifen als allg. Wiederholungs-Struktur */
 
+// Inkrement (untere Grenze --> obere Grenze)
+for (let i = 0; i < 10; i++) 
+{
+   // output("index i: " + i);
+    output(i);
+}
 
 // Dekrement (obere Grenze --> untere Grenze)
 // for (let i = 10; i > 0; i--) {
@@ -38,9 +44,9 @@
 // }
 
 // Inkrement (var. Schrittweite)
-for (let i = 0; i <= 100; i+=10) {
-    output("index i: " + i);
-}
+// for (let i = 50; i <= 100; i+=5) {
+//     output("index i: " + i);
+// }
 
 /*** 01. Funktionalität mit Einzelparametern */
 // --> "Ich bin Max Mütze."
