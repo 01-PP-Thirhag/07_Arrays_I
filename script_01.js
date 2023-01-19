@@ -20,13 +20,6 @@ let arr;
 // {} --> Codeblöcke
 // [] --> Arrays, Index
 
-
-
-
-
-
-// output(arr)
-
 /*** 01. Funktionalität mit Einzelparametern */
 // --> "Ich bin Max Mütze."
 // output(getSentence("Ich","bin","Max","Mütze"));
@@ -60,9 +53,6 @@ function getSentenceArr(arr) {
 
     return str;
 }
-
-
-
 
 // Modul: Ausgabe in Konsole : Test
 // output("hi"); 
