@@ -3,7 +3,7 @@
 /* Die Satzbau-Maschine | Arrays */
 
 /*** 02. Theorie: Array */
-let arr;
+// let arr;
 // arr = new Array();  // Konstruktor
 // arr = []; // Literal
 // arr = [2,7,11,4];
@@ -53,6 +53,32 @@ function getSentenceArr(arr) {
 
     return str;
 }
+
+/*** 01a. Funktionalität mit Array 1  */
+// Kritik | Überlegung
+// word1,word2, .... wordN :: Semantische Struktur
+// arr[0],arr[1] ... arr[n] ::Numerische Struktur (0,1,2,3 ... n)
+// --> Transformation semantisches Problem --> numerisches Problem
+output(getSentenceArr(["Ich","bin","die","coole","Maxine","Mützerich"]));
+function getSentenceArr(arr) {
+    const GAP = " ";
+    const PUNCT = ".";
+    let str =   arr[0] + GAP +
+                arr[1] + GAP +
+                arr[2] + GAP +
+                arr[3] + GAP +
+                arr[4] + GAP +
+                arr[5] +
+                PUNCT;
+
+    return str;
+}
+
+
+
+
+
+
 
 // Modul: Ausgabe in Konsole : Test
 // output("hi"); 
