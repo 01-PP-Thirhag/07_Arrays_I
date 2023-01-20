@@ -155,9 +155,10 @@ function getSentenceArr2(arr) {
 
     for (let i = 0; i < arr.length; i++) {
         str += arr[i] + GAP;
-        // output(str); 
     }
 
+   // 1. Variante trim
+    str = str.trimEnd();
     str = str + PUNCT;
 
    return str;
